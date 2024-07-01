@@ -78,7 +78,7 @@ ORDER BY 2,3
 
 --Examine Daily Percentage of vaccinated over population  
 
-
+--USE CTE
 WITH PopvsVac (continent, location, date, population, new_vaccinations, rolling_people_vaccinated)
 AS 
 (
