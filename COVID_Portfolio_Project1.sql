@@ -1,4 +1,4 @@
--- Our first dataset check
+-- First dataset check
 SELECT *
 FROM DA_Project1_Covid_Cases..CovidDeaths
 ORDER BY 3,4 --this sorts by 3rd and 4th columns (location&date)
